@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Schack/static/css/main.49f36c55.chunk.css",
+    "main.js": "/Schack/static/js/main.606c6947.chunk.js",
+    "main.js.map": "/Schack/static/js/main.606c6947.chunk.js.map",
+    "runtime-main.js": "/Schack/static/js/runtime-main.ebf3d25b.js",
+    "runtime-main.js.map": "/Schack/static/js/runtime-main.ebf3d25b.js.map",
+    "static/js/2.fd765e3d.chunk.js": "/Schack/static/js/2.fd765e3d.chunk.js",
+    "static/js/2.fd765e3d.chunk.js.map": "/Schack/static/js/2.fd765e3d.chunk.js.map",
+    "static/js/3.c6062f0d.chunk.js": "/Schack/static/js/3.c6062f0d.chunk.js",
+    "static/js/3.c6062f0d.chunk.js.map": "/Schack/static/js/3.c6062f0d.chunk.js.map",
+    "index.html": "/Schack/index.html",
+    "static/css/main.49f36c55.chunk.css.map": "/Schack/static/css/main.49f36c55.chunk.css.map",
+    "static/js/2.fd765e3d.chunk.js.LICENSE.txt": "/Schack/static/js/2.fd765e3d.chunk.js.LICENSE.txt",
+    "static/media/english.605bcc04.png": "/Schack/static/media/english.605bcc04.png",
+    "static/media/morphy.78e1bde1.jpg": "/Schack/static/media/morphy.78e1bde1.jpg",
+    "static/media/queensgambit.abb80e38.png": "/Schack/static/media/queensgambit.abb80e38.png",
+    "static/media/schack.37824b3d.jpg": "/Schack/static/media/schack.37824b3d.jpg",
+    "static/media/spanish.6d184e74.png": "/Schack/static/media/spanish.6d184e74.png",
+    "static/media/stockfish.a79d77aa.png": "/Schack/static/media/stockfish.a79d77aa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebf3d25b.js",
+    "static/js/2.fd765e3d.chunk.js",
+    "static/css/main.49f36c55.chunk.css",
+    "static/js/main.606c6947.chunk.js"
+  ]
+}
