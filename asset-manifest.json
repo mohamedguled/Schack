@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Schack/static/css/main.49f36c55.chunk.css",
-    "main.js": "/Schack/static/js/main.d51a5911.chunk.js",
-    "main.js.map": "/Schack/static/js/main.d51a5911.chunk.js.map",
+    "main.css": "/Schack/static/css/main.ea4739d0.chunk.css",
+    "main.js": "/Schack/static/js/main.8c32443d.chunk.js",
+    "main.js.map": "/Schack/static/js/main.8c32443d.chunk.js.map",
     "runtime-main.js": "/Schack/static/js/runtime-main.ebf3d25b.js",
     "runtime-main.js.map": "/Schack/static/js/runtime-main.ebf3d25b.js.map",
     "static/js/2.fd765e3d.chunk.js": "/Schack/static/js/2.fd765e3d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c6062f0d.chunk.js": "/Schack/static/js/3.c6062f0d.chunk.js",
     "static/js/3.c6062f0d.chunk.js.map": "/Schack/static/js/3.c6062f0d.chunk.js.map",
     "index.html": "/Schack/index.html",
-    "static/css/main.49f36c55.chunk.css.map": "/Schack/static/css/main.49f36c55.chunk.css.map",
+    "static/css/main.ea4739d0.chunk.css.map": "/Schack/static/css/main.ea4739d0.chunk.css.map",
     "static/js/2.fd765e3d.chunk.js.LICENSE.txt": "/Schack/static/js/2.fd765e3d.chunk.js.LICENSE.txt",
     "static/media/english.605bcc04.png": "/Schack/static/media/english.605bcc04.png",
     "static/media/morphy.78e1bde1.jpg": "/Schack/static/media/morphy.78e1bde1.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.ebf3d25b.js",
     "static/js/2.fd765e3d.chunk.js",
-    "static/css/main.49f36c55.chunk.css",
-    "static/js/main.d51a5911.chunk.js"
+    "static/css/main.ea4739d0.chunk.css",
+    "static/js/main.8c32443d.chunk.js"
   ]
 }
