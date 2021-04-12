@@ -1,7 +1,6 @@
 import React from 'react'
 
 
-
 import Bonde from './assets/bonde.png'
 import Springare from './assets/springare.png'
 import Löpare from './assets/löpare.png'
@@ -15,6 +14,7 @@ export default function Pjäser() {
 
     return (
         <div className="pjäser">
+            <h1 className="pieceHeader">Antal pjäser</h1>
             <div className="card-container">
 
 
@@ -81,7 +81,10 @@ export default function Pjäser() {
                 </div>
 
 
+            
             </div>
+
+
             
         </div>
     )
