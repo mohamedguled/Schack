@@ -1,0 +1,844 @@
+
+$Greencolor: #85ef85;
+$Base: #46867c;
+$Darkcolor: #000;
+
+
+$bgcolorDARK : #141824;
+$bgcolorLIGHT : rgb(230, 230, 230);
+
+
+$breakpoint-tablet: 1000px;
+
+.App {
+  background-color: $bgcolorLIGHT;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #282c34;
+  
+}
+
+.knight {
+  width:50px;
+  height:50px;
+  margin-left: 15px;
+}
+
+.nav-header {
+  font-size: 1.3rem;
+  color: white;
+  margin: 0 0 0 10px;
+}
+
+.navbar-content {
+  display: flex;
+  height: 100%;
+
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  color: white;
+  margin-left: 10%;
+}
+
+.nav-p p {
+  margin: 0!important;
+}
+
+.home-cont {
+
+  width: 100%!important;
+
+}
+
+
+.list-link {
+  display: inline;
+  list-style-type: none;
+  padding: 0 15px 0 15px;
+}
+
+.navlink {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.ButtonIcon {
+  color: white;
+  font-size: 120px;
+}
+
+
+
+
+.contact-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallicon {
+    color: $bgcolorLIGHT;
+    font-size: 1.3rem;
+}
+
+
+
+.categoryBTN-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.categoryBTN {
+  display: flex;
+  padding: 30px 40px 30px 40px;
+ 
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $bgcolorDARK;
+}
+
+
+.categoryBTN p {
+  font-size: 20px;
+  margin-top: 20px;
+  color: $bgcolorLIGHT;
+  font-weight: bold;
+}
+
+.opening {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: flex-start;
+}
+
+.openingsection {
+  display: flex;
+
+  padding: 5px 0 5px 0;
+  width: 204px;
+  flex-direction: column;
+ 
+}
+
+.openingscontainer {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.openingsection h2 {
+  font-size: 20px;
+  color: $Darkcolor;
+  margin: 0;
+}
+
+.opening-type-header {
+  color: $Darkcolor;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+
+}
+
+.board-container {
+  width: 500px;
+  height:500px;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 300px;
+  background-color: #282c34;
+}
+
+.left-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.left-footer p {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+  font-size: 1rem;
+}
+
+.footerMenu {
+  display: flex;
+  margin: 30px 8vw auto auto;
+
+  gap: 10px;
+ 
+
+}
+
+.footer-content {
+  display: flex;
+  margin: 30px 0 20px 0;
+  align-items: center;
+
+}
+
+/* Home */
+
+.home {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 50px 0 30px 0;
+  min-height: calc(100vh - 80px)!important;
+ 
+  background-size: cover;
+
+  width: 100%;
+}
+
+.home {
+  h1 {
+    font-size: 60px;
+    margin: 0 0 10px 0;
+  }
+}
+
+.pjäser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 750px!important;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.grunder, .regler, .lärdig, .öppningar, .historia, .spanish, .test, .spelare {
+  min-height: 750px!important;
+
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.schackhistoria {
+  display: flex;
+
+  min-height: 750px!important;
+
+  width: 100%;
+  padding: 30px 0 50px 100px;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  min-height: 750px!important;
+
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.error h1 {
+  color: $Darkcolor;
+  margin: 0; 
+  font-size: 30px;
+}
+  
+
+.erroricon {
+  color: $Darkcolor;
+  font-size: 100px;
+}
+
+
+.text-styling {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  flex-direction: column;
+  max-width: 70%;
+
+}
+
+.text-part {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-styling-text {
+  color: $Darkcolor;
+  font-weight: 450;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.headerbold {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.source {
+  color: #316979;
+  font-size: .7rem;
+}
+
+.source-size {
+  font-size: .7rem;
+}
+
+.source-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.history-img {
+  width: 300px;
+}
+
+
+.playercards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.playercontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.playercard {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+}
+
+.playername {
+    color: $Darkcolor;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.flagsize {
+    width: 30px;
+    height: 26px;
+}
+
+.playerera {
+    color: $Darkcolor;
+    font-size: 1rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.morphyIMG {
+    background-image: url(../assets/morphy.jpg);
+}
+
+.capaIMG {
+    background-image: url(../assets/capablanca.jpg)
+
+}
+
+.cardimagePlayer {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+ 
+}
+
+.rightnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100px;
+  margin: auto 20px auto auto; 
+}
+
+.rightnavIcon {
+  color: $bgcolorLIGHT;
+  font-size: 1.4rem;
+}
+
+.homeHeader {
+  color: $Darkcolor;
+  padding: 0;
+  margin: 0 ;
+  font-size: 50px!important;
+
+}
+
+.pieceHeader {
+  margin: 30px 0 0 0;
+  color: $Darkcolor;
+}
+
+
+.historia {
+  padding-top: 30px;
+}
+
+.piece-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  outline: none;
+  font-size: 15px;
+}
+
+.nav-big-link, .link {
+  text-decoration: none;
+}
+
+.link {
+  color: white;
+
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/* Regler */
+
+.iframe {
+  width: 600px;  
+  height: 397px;
+  border: none;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0 0 20px;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  width: 400px;
+  height: 120px;
+  background-color: #44626d;
+
+}
+
+.card-vert {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  width: 150px;
+  padding: 10px 5px 10px 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #44626d;
+  
+}
+
+
+.startpos {
+  width: 300px;
+}
+
+.startpos-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  padding: 50px 0 0 0;
+}
+
+.startpos-container p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.resize-card-image {
+  width: 75px;
+  height: 75px;
+  margin: 5px 10px 5px 10px;
+}
+
+.piece-card-image  {
+  width: 50px;
+  height: 50px;
+}
+
+
+.card-header {
+  color: black;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.card-header-white {
+  color: $Darkcolor;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.vert-card-header {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.vert-card-paragraph {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+.card-paragraph {
+  color: white;
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+}
+
+.card-note {
+  color: rgb(199, 199, 199);
+  text-align: left;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Öppningar */
+
+.öppningar {
+  padding-top: 20px;
+}
+
+.opening-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(54, 48, 36);
+  
+}
+
+
+
+
+.opening-type {
+  display: flex;
+  
+  padding-left: 50px;
+  margin-bottom: 15px;
+}
+
+
+
+
+.player-card  {
+  height: 300px;
+}
+
+
+.type {
+  p {
+    margin: 0!important;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.history-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+ 
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.history-header {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+} 
+
+
+.history-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.crop-photo {
+  height: 270px;
+  max-width: 270px;
+}
+
+
+
+
+ul {
+  margin: 0!important;
+}
+
+.drawer-btn {
+  display: none!important;
+}
+
+.nav-drawer-container {
+  display: flex;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.burger {
+  color: white;
+  font-size: 25px;
+  margin: 0 10px 0 0;
+}
+
+.burger:hover {
+  cursor: pointer;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .drawer-btn {
+      display: flex!important;
+    }
+    .navbar-nav {
+      display: none;
+    }
+
+    .nav-header {
+      font-size: 1rem;
+    }
+
+    .footerMenu {
+      display: none;
+    }
+
+    .left-footer {
+      width: 100%;
+ 
+    }
+}
+
+
+.Grafiskprofil {
+  padding: 50px 0 50px 40px;
+}
+
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin: 0 0 20px 0;
+}
+
+.colorboxes {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-tooltip {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 10px 0;
+
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.fontheader {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.fonttext {
+  font-size: 1.1rem;
+  font-family: "Courier Prime", monospace;
+  margin: 0;
+  font-weight: 300;
+}
+
+.fontrow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0 20px;
+}
+
+.colorbox {
+  display: flex;
+  font-family: "Playfair Display", serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  border-radius: 1px;
+}
+
+.logobox {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.typsnitt1 {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+}
+
+.typsnitt2 {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.light {
+  color: white;
+}
+
+.dark {
+  color: black;
+}
+
+#darkblue {
+  background-color: #282c34;
+}
+
+#darkerblue {
+  background-color: #141824;
+}
+
+#offwhite {
+  background-color: #e6e6e6;
+}

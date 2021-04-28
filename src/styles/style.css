@@ -1,19 +1,7 @@
-
-$Greencolor: #85ef85;
-$Base: #46867c;
-$Darkcolor: #000;
-
-
-$bgcolorDARK : #141824;
-$bgcolorLIGHT : rgb(230, 230, 230);
-
-
-$breakpoint-tablet: 1000px;
-
+@charset "UTF-8";
 .App {
-  background-color: $bgcolorLIGHT;
+  background-color: #e6e6e6;
 }
-
 
 .App-logo {
   height: 40vmin;
@@ -26,12 +14,11 @@ $breakpoint-tablet: 1000px;
   width: 100%;
   height: 80px;
   background-color: #282c34;
-  
 }
 
 .knight {
-  width:50px;
-  height:50px;
+  width: 50px;
+  height: 50px;
   margin-left: 15px;
 }
 
@@ -44,7 +31,6 @@ $breakpoint-tablet: 1000px;
 .navbar-content {
   display: flex;
   height: 100%;
-
   align-items: center;
 }
 
@@ -55,15 +41,12 @@ $breakpoint-tablet: 1000px;
 }
 
 .nav-p p {
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 .home-cont {
-
-  width: 100%!important;
-
+  width: 100% !important;
 }
-
 
 .list-link {
   display: inline;
@@ -83,22 +66,17 @@ $breakpoint-tablet: 1000px;
   font-size: 120px;
 }
 
-
-
-
 .contact-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .smallicon {
-    color: $bgcolorLIGHT;
-    font-size: 1.3rem;
+  color: #e6e6e6;
+  font-size: 1.3rem;
 }
-
-
 
 .categoryBTN-container {
   display: flex;
@@ -111,19 +89,17 @@ $breakpoint-tablet: 1000px;
 .categoryBTN {
   display: flex;
   padding: 30px 40px 30px 40px;
- 
   border-radius: 5px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: $bgcolorDARK;
+  background-color: #141824;
 }
-
 
 .categoryBTN p {
   font-size: 20px;
   margin-top: 20px;
-  color: $bgcolorLIGHT;
+  color: #e6e6e6;
   font-weight: bold;
 }
 
@@ -136,11 +112,9 @@ $breakpoint-tablet: 1000px;
 
 .openingsection {
   display: flex;
-
   padding: 5px 0 5px 0;
   width: 204px;
   flex-direction: column;
- 
 }
 
 .openingscontainer {
@@ -152,22 +126,21 @@ $breakpoint-tablet: 1000px;
 
 .openingsection h2 {
   font-size: 20px;
-  color: $Darkcolor;
+  color: #000;
   margin: 0;
 }
 
 .opening-type-header {
-  color: $Darkcolor;
+  color: #000;
   padding: 0;
   margin: 0;
   font-size: 12px;
   font-weight: 500;
-
 }
 
 .board-container {
   width: 500px;
-  height:500px;
+  height: 500px;
 }
 
 .navbar-list {
@@ -176,7 +149,6 @@ $breakpoint-tablet: 1000px;
 }
 
 /* Footer */
-
 .footer {
   display: flex;
   gap: 50px;
@@ -196,69 +168,55 @@ $breakpoint-tablet: 1000px;
   margin: 0;
   padding: 0;
   color: white;
-
   font-size: 1rem;
 }
 
 .footerMenu {
   display: flex;
   margin: 30px 8vw auto auto;
-
   gap: 10px;
- 
-
 }
 
 .footer-content {
   display: flex;
   margin: 30px 0 20px 0;
   align-items: center;
-
 }
 
 /* Home */
-
 .home {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   padding: 50px 0 30px 0;
-  min-height: calc(100vh - 80px)!important;
- 
+  min-height: calc(100vh - 80px) !important;
   background-size: cover;
-
   width: 100%;
 }
 
-.home {
-  h1 {
-    font-size: 60px;
-    margin: 0 0 10px 0;
-  }
+.home h1 {
+  font-size: 60px;
+  margin: 0 0 10px 0;
 }
 
 .pjäser {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 750px!important;
+  min-height: 750px !important;
   width: 100%;
   padding-bottom: 50px;
 }
 
 .grunder, .regler, .lärdig, .öppningar, .historia, .spanish, .test, .spelare {
-  min-height: 750px!important;
-
+  min-height: 750px !important;
   width: 100%;
   padding-bottom: 50px;
 }
 
 .schackhistoria {
   display: flex;
-
-  min-height: 750px!important;
-
+  min-height: 750px !important;
   width: 100%;
   padding: 30px 0 50px 100px;
 }
@@ -268,24 +226,21 @@ $breakpoint-tablet: 1000px;
   flex-direction: column;
   padding-top: 50px;
   align-items: center;
-  min-height: 750px!important;
-
+  min-height: 750px !important;
   width: 100%;
   padding-bottom: 50px;
 }
 
 .error h1 {
-  color: $Darkcolor;
-  margin: 0; 
+  color: #000;
+  margin: 0;
   font-size: 30px;
 }
-  
 
 .erroricon {
-  color: $Darkcolor;
+  color: #000;
   font-size: 100px;
 }
-
 
 .text-styling {
   display: flex;
@@ -293,7 +248,6 @@ $breakpoint-tablet: 1000px;
   gap: 15px;
   flex-direction: column;
   max-width: 70%;
-
 }
 
 .text-part {
@@ -303,7 +257,7 @@ $breakpoint-tablet: 1000px;
 }
 
 .text-styling-text {
-  color: $Darkcolor;
+  color: #000;
   font-weight: 450;
   font-size: 1rem;
   flex-wrap: wrap;
@@ -317,11 +271,11 @@ $breakpoint-tablet: 1000px;
 
 .source {
   color: #316979;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .source-size {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .source-container {
@@ -334,79 +288,74 @@ $breakpoint-tablet: 1000px;
   width: 300px;
 }
 
-
 .playercards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 50px;
-    gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 50px;
 }
 
 .playercontainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 250px;
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 250px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .playercard {
-    display: flex;
-    flex-direction: column;
-
-    border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
 }
 
 .playername {
-    color: $Darkcolor;
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 10px 0 0 0;
+  color: #000;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 10px 0 0 0;
 }
 
 .flagsize {
-    width: 30px;
-    height: 26px;
+  width: 30px;
+  height: 26px;
 }
 
 .playerera {
-    color: $Darkcolor;
-    font-size: 1rem;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 10px 0 10px 0;
+  color: #000;
+  font-size: 1rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0 10px 0;
 }
 
 .morphyIMG {
-    background-image: url(./assets/morphy.jpg);
+  background-image: url(../assets/morphy.jpg);
 }
 
 .capaIMG {
-    background-image: url(./assets/capablanca.jpg)
-
+  background-image: url(../assets/capablanca.jpg);
 }
 
 .cardimagePlayer {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .button {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-
- 
 }
 
 .rightnav {
@@ -415,27 +364,25 @@ $breakpoint-tablet: 1000px;
   align-items: center;
   height: 100%;
   width: 100px;
-  margin: auto 20px auto auto; 
+  margin: auto 20px auto auto;
 }
 
 .rightnavIcon {
-  color: $bgcolorLIGHT;
+  color: #e6e6e6;
   font-size: 1.4rem;
 }
 
 .homeHeader {
-  color: $Darkcolor;
+  color: #000;
   padding: 0;
-  margin: 0 ;
-  font-size: 50px!important;
-
+  margin: 0;
+  font-size: 50px !important;
 }
 
 .pieceHeader {
   margin: 30px 0 0 0;
-  color: $Darkcolor;
+  color: #000;
 }
-
 
 .historia {
   padding-top: 30px;
@@ -460,7 +407,6 @@ $breakpoint-tablet: 1000px;
 
 .link {
   color: white;
-
 }
 
 .nopadding {
@@ -476,7 +422,6 @@ $breakpoint-tablet: 1000px;
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -492,14 +437,11 @@ $breakpoint-tablet: 1000px;
   color: #61dafb;
 }
 
-
 /* Regler */
-
 .iframe {
-  width: 600px;  
+  width: 600px;
   height: 397px;
   border: none;
-
 }
 
 .card-container {
@@ -517,7 +459,6 @@ $breakpoint-tablet: 1000px;
   width: 400px;
   height: 120px;
   background-color: #44626d;
-
 }
 
 .card-vert {
@@ -529,9 +470,7 @@ $breakpoint-tablet: 1000px;
   align-items: center;
   justify-content: center;
   background-color: #44626d;
-  
 }
-
 
 .startpos {
   width: 300px;
@@ -541,7 +480,6 @@ $breakpoint-tablet: 1000px;
   display: flex;
   gap: 20px;
   align-items: flex-start;
-
   padding: 50px 0 0 0;
 }
 
@@ -558,11 +496,10 @@ $breakpoint-tablet: 1000px;
   margin: 5px 10px 5px 10px;
 }
 
-.piece-card-image  {
+.piece-card-image {
   width: 50px;
   height: 50px;
 }
-
 
 .card-header {
   color: black;
@@ -572,7 +509,7 @@ $breakpoint-tablet: 1000px;
 }
 
 .card-header-white {
-  color: $Darkcolor;
+  color: #000;
   text-align: left;
   padding: 0;
   margin: 0;
@@ -594,7 +531,6 @@ $breakpoint-tablet: 1000px;
   margin: 0;
 }
 
-
 .card-paragraph {
   color: white;
   font-size: 17px;
@@ -603,7 +539,7 @@ $breakpoint-tablet: 1000px;
 }
 
 .card-note {
-  color: rgb(199, 199, 199);
+  color: #c7c7c7;
   text-align: left;
   font-size: 13px;
   padding: 0;
@@ -611,7 +547,6 @@ $breakpoint-tablet: 1000px;
 }
 
 /* Öppningar */
-
 .öppningar {
   padding-top: 20px;
 }
@@ -619,30 +554,23 @@ $breakpoint-tablet: 1000px;
 .opening-image {
   width: 200px;
   height: 200px;
-  border: 2px solid rgb(54, 48, 36);
-  
+  border: 2px solid #363024;
 }
-
-
-
 
 .opening-type {
   display: flex;
-  
   padding-left: 50px;
   margin-bottom: 15px;
 }
 
-
-
-
-.player-card  {
-  
+.player-card {
   height: 300px;
 }
 
-.player-card img {
-
+.type p {
+  margin: 0 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .history-cards {
@@ -651,7 +579,6 @@ $breakpoint-tablet: 1000px;
   align-items: center;
   width: 300px;
   height: 300px;
- 
   padding: 30px;
   border-radius: 3px;
 }
@@ -661,8 +588,7 @@ $breakpoint-tablet: 1000px;
   font-size: 25px;
   font-weight: 700;
   margin-top: 10px;
-} 
-
+}
 
 .history-card-container {
   display: flex;
@@ -675,15 +601,12 @@ $breakpoint-tablet: 1000px;
   max-width: 270px;
 }
 
-
-
-
 ul {
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 .drawer-btn {
-  display: none!important;
+  display: none !important;
 }
 
 .nav-drawer-container {
@@ -706,24 +629,131 @@ ul {
   cursor: pointer;
 }
 
-@media (max-width: $breakpoint-tablet) {
-    .drawer-btn {
-      display: flex!important;
-    }
-    .navbar-nav {
-      display: none;
-    }
+@media (max-width: 1000px) {
+  .drawer-btn {
+    display: flex !important;
+  }
 
-    .nav-header {
-      font-size: 1rem;
-    }
+  .navbar-nav {
+    display: none;
+  }
 
-    .footerMenu {
-      display: none;
-    }
+  .nav-header {
+    font-size: 1rem;
+  }
 
-    .left-footer {
-      width: 100%;
- 
-    }
+  .footerMenu {
+    display: none;
+  }
+
+  .left-footer {
+    width: 100%;
+  }
 }
+.Grafiskprofil {
+  padding: 50px 0 50px 40px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin: 0 0 20px 0;
+}
+
+.colorboxes {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-tooltip {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.fontheader {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.fonttext {
+  font-size: 1.1rem;
+  font-family: "Courier Prime", monospace;
+  margin: 0;
+  font-weight: 300;
+}
+
+.fontrow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0 20px;
+}
+
+.colorbox {
+  display: flex;
+  font-family: "Playfair Display", serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  border-radius: 1px;
+}
+
+.logobox {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.typsnitt1 {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.typsnitt2 {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.light {
+  color: white;
+}
+
+.dark {
+  color: black;
+}
+
+#darkblue {
+  background-color: #282c34;
+}
+
+#darkerblue {
+  background-color: #141824;
+}
+
+#offwhite {
+  background-color: #e6e6e6;
+}
+
+/*# sourceMappingURL=style.css.map */
