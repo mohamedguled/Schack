@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Schack/static/css/main.7fff02d7.chunk.css",
+    "main.css": "/Schack/static/css/main.c9a80193.chunk.css",
     "main.js": "/Schack/static/js/main.5a3f91c6.chunk.js",
     "main.js.map": "/Schack/static/js/main.5a3f91c6.chunk.js.map",
     "runtime-main.js": "/Schack/static/js/runtime-main.b8f91d28.js",
@@ -12,7 +12,7 @@
     "static/js/3.2f2d7839.chunk.js.map": "/Schack/static/js/3.2f2d7839.chunk.js.map",
     "index.html": "/Schack/index.html",
     "static/css/2.a5497ee8.chunk.css.map": "/Schack/static/css/2.a5497ee8.chunk.css.map",
-    "static/css/main.7fff02d7.chunk.css.map": "/Schack/static/css/main.7fff02d7.chunk.css.map",
+    "static/css/main.c9a80193.chunk.css.map": "/Schack/static/css/main.c9a80193.chunk.css.map",
     "static/js/2.6ab1c76d.chunk.js.LICENSE.txt": "/Schack/static/js/2.6ab1c76d.chunk.js.LICENSE.txt",
     "static/media/USA.4c70daf4.svg": "/Schack/static/media/USA.4c70daf4.svg",
     "static/media/style.css": "/Schack/static/media/morphy.78e1bde1.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.b8f91d28.js",
     "static/css/2.a5497ee8.chunk.css",
     "static/js/2.6ab1c76d.chunk.js",
-    "static/css/main.7fff02d7.chunk.css",
+    "static/css/main.c9a80193.chunk.css",
     "static/js/main.5a3f91c6.chunk.js"
   ]
 }
